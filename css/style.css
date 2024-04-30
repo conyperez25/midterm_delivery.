@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Space+Mono&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bodoni Moda", sans-serif;
+    background-color: #ede2d5b3; /* Changed background color value */
+}
+
+header {
+    margin: 0; /* Removed percentage value */
+    padding-top: 10px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 50%; /* Adjusted font size */
+    background-color: #c3b9afb3;
+    border-top: 2px solid rgba(28, 21, 67, 0.745);
+}
+
+main,
+footer,
+header {
+    width: 100%;
+}
+
+footer {
+    background-color: #5c5c5cf8;
+    height: 1%;
+}
+
+section {
+    width: 83.33%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    font-size: 0.2em;
+}
+
+#secondSection div p {
+    width: 100%;
+    background-color: #ede2d5b3;
+    font-size: 5em;
+     display: block;
+    margin-bottom: 20px;
+}
+
+#secondSection div p {
+
+    margin-bottom: 20px;
+    font-size: 10em;
+}
+
+.image-container img {
+    width: 300px;
+    height: 400px;
+    margin-right: 50px;
+}
+
+div {
+    width: 83.33%;
+    margin: 0 auto; /* Adjusted margin */
+}
+
+div div {
+    width: 100%;
+    margin: 20px 0; /* Adjusted margin */
+    display: flex;
+    justify-content: space-between;
+}
+
+h1,
+h2 {
+    color: #2c313f;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4em;
+    font-family: "Alfa Slab One", serif;
+    line-height: 140px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 8.75em;
+}
+
+p,
+a {
+    font-size: 1.81em;
+    font-weight: 300;
+}
+
+a {
+    font-family: "Mulish", sans-serif;
+    text-decoration: none;
+    color: #2c313f;
+    border: 1px solid;
+    padding: 0.5em 1em;
+}
+
+a:hover {
+    border-style: dashed;
+    background-color: #2c313f;
+    color: white;
+}
+
+h2,
+p {
+    margin-bottom: 64px;
+}
+
+header img {
+    width: 100%; /* Adjusted width */
+    display: block;
+    margin: 50;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+}
